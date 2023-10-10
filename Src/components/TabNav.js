@@ -25,7 +25,7 @@ const TabNav = () => {
             } else if (route.name === "Stores") {
               iconName = focused ? "store" : "store-outline";
             } else if (route.name === "Order") {
-              iconName = focused ? "cart" : "cart-outline";
+              iconName = focused ? "text-box" : "text-box-outline";
             } else if (route.name === "Profile") {
               iconName = focused ? "account" : "account-outline";
             }
