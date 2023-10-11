@@ -25,16 +25,46 @@ const HomeScreen = () => {
         <Reserve />
         <Text className="m-5 text-lg font-semibold">Promotion campaign</Text>
         <View className="flex-row flex-wrap bg-white">
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
-          <Promotion />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
+          <Promotion
+            title="Hello World"
+            imageSource={require("./../../../assets/icon.png")}
+          />
         </View>
       </ScrollView>
     </View>

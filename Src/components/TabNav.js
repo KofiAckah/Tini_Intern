@@ -23,7 +23,7 @@ const TabNav = () => {
             if (route.name === "Home") {
               iconName = focused ? "home" : "home-outline";
             } else if (route.name === "Stores") {
-              iconName = focused ? "store" : "store-outline";
+              iconName = focused ? "storefront" : "storefront-outline";
             } else if (route.name === "Order") {
               iconName = focused ? "text-box" : "text-box-outline";
             } else if (route.name === "Profile") {
