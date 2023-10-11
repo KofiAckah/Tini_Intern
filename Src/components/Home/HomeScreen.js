@@ -7,6 +7,7 @@ import Welcome from "./Welcome";
 import Ads from "./Ads";
 import Pickup from "./Pickup";
 import Reserve from "./Reserve";
+import Promotion from "./Promotion";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -22,6 +23,19 @@ const HomeScreen = () => {
         </ScrollView>
         <Pickup />
         <Reserve />
+        <Text className="m-5 text-lg font-semibold">Promotion campaign</Text>
+        <View className="flex-row flex-wrap bg-white">
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+          <Promotion />
+        </View>
       </ScrollView>
     </View>
   );

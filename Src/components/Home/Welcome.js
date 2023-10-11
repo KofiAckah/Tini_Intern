@@ -27,5 +27,3 @@ const Welcome = () => {
 };
 
 export default Welcome;
-
-const styles = StyleSheet.create({});

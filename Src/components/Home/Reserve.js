@@ -18,10 +18,9 @@ const Reserve = () => {
         </View>
       </View>
       <View className="flex-row justify-between mt-3">
-        <View className="flex-row border-2 border-primary-100 p-2 rounded-full items-center">
+        <View className="flex-row border-2 border-primary-100 p-2 rounded-full items-center mr-1">
           <MaterialCommunityIcons name="calendar" size={20} color="#68B3F5" />
           <Text className="text-primary-100 text-base font-semibold">
-            {" "}
             Reserve a table
           </Text>
         </View>
