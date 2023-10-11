@@ -1,4 +1,4 @@
-import { Text, View, Image } from "react-native";
+import { Text, View, Image, TouchableOpacity } from "react-native";
 import React from "react";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { LinearGradient } from "expo-linear-gradient";
@@ -52,16 +52,22 @@ const Profile = () => {
         />
         <Text className="mx-auto mt-1">42773-38384-84929</Text>
       </View>
-      <View className="bg-white w-11/12 mx-auto relative bottom-16 h-16 rounded-lg overflow-hidden flex-row justify-between p-4">
-        <View className="flex-row">
-          <MaterialCommunityIcons name="headphones" size={30} color="#68B3F5" />
-          <View className="ml-4 -mt-1">
-            <Text className="text-base">Support</Text>
-            <Text className="text-gray-600">Call or chat with us</Text>
+      <TouchableOpacity>
+        <View className="bg-white w-11/12 mx-auto relative bottom-16 h-16 rounded-lg overflow-hidden flex-row justify-between p-4">
+          <View className="flex-row">
+            <MaterialCommunityIcons
+              name="headphones"
+              size={30}
+              color="#68B3F5"
+            />
+            <View className="ml-4 -mt-1">
+              <Text className="text-base">Support</Text>
+              <Text className="text-gray-600">Call or chat with us</Text>
+            </View>
           </View>
+          <MaterialCommunityIcons name="chevron-right" size={30} />
         </View>
-        <MaterialCommunityIcons name="chevron-right" size={30} />
-      </View>
+      </TouchableOpacity>
       <View className="mx-auto relative bottom-10">
         <Text className="text-primary-100 underline font-bold">
           Terms and Conditions
