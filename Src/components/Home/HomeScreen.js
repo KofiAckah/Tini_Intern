@@ -16,10 +16,10 @@ const HomeScreen = () => {
       <ScrollView>
         <Welcome />
         <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-          <Ads imageSource={require("./../../../assets/icon.png")} />
-          <Ads imageSource={require("./../../../assets/icon.png")} />
-          <Ads imageSource={require("./../../../assets/icon.png")} />
-          <Ads imageSource={require("./../../../assets/icon.png")} />
+          <Ads imageSource={require("./../../../assets/Images/ads1.png")} />
+          <Ads imageSource={require("./../../../assets/Images/ads2.png")} />
+          <Ads imageSource={require("./../../../assets/Images/ads3.png")} />
+          <Ads imageSource={require("./../../../assets/Images/ads4.png")} />
         </ScrollView>
         <Pickup />
         <Reserve />

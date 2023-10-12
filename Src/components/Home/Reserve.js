@@ -12,7 +12,7 @@ const Reserve = () => {
         </View>
         <View className="items-center">
           <Image
-            source={require("./../../../assets/icon.png")}
+            source={require("./../../../assets/Images/table.jpg")}
             className="w-28 h-24"
           />
         </View>

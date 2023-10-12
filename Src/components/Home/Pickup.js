@@ -6,7 +6,7 @@ const Pickup = () => {
     <View className="bg-white w-11/12 mx-auto flex-row justify-between p-6 rounded-xl">
       <View className="items-center">
         <Image
-          source={require("./../../../assets/icon.png")}
+          source={require("./../../../assets/Images/shop.png")}
           className="w-32 h-28"
         />
         <Text className="text-xl font-semibold">Store pickup</Text>
@@ -14,7 +14,7 @@ const Pickup = () => {
       </View>
       <View className="items-center">
         <Image
-          source={require("./../../../assets/icon.png")}
+          source={require("./../../../assets/Images/delivery.webp")}
           className="w-32 h-28"
         />
         <Text className="text-xl font-semibold">Delivery</Text>

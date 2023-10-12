@@ -44,8 +44,8 @@ const Order = () => {
         </Text>
       </View>
       <Image
-        source={require("../../assets/icon.png")}
-        className="w-full h-56 mt-10"
+        source={require("../../assets/Images/order.png")}
+        className="w-60 h-60 mt-10 mx-auto mb-4"
       />
       <Text className="mx-auto text-xl mt-5 font-semibold">
         You have no order
